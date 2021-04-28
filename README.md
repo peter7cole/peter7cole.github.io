@@ -1,5 +1,7 @@
 # 🥳 Hello World
 
+My name is **Peter Cole** _(he/him)_
+
 ## Overview
 
 - 💻 Software Engineer at Cisco working on a small part of [Cisco Webex](https://www.webex.com/), _2020 - Present_
@@ -14,13 +16,15 @@
 
 ## Projects
 
-- [Mailbox Madness](https://peter7cole.github.io/mailbox-madness)
-- [Video Rental](https://peter7cole.github.io/mosh-video-rental)
+| Link                                                            | Description                       |
+| --------------------------------------------------------------- | --------------------------------- |
+| [CLI Journal](https://cli-journal.web.app/)                     | Code Fellows 401 Final Project    |
+| [Deck Builder](https://deck-builder-301-final.herokuapp.com)    | Code Fellows 301 Final Project    |
+| [Mailbox Madness](https://peter7cole.github.io/mailbox-madness) | Bellevue College JS Final Project |
+| [Video Rental](https://peter7cole.github.io/mosh-video-rental)  | React Sandboxing                  |
 
-## Open Source
+## Open Source Support
 
 - [BrainWaves](https://github.com/makebrainwaves/BrainWaves)
 
----
-
-> Copyright 2021
+> Copyright 2021 Peter Cole
