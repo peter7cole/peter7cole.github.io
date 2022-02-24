@@ -24,4 +24,4 @@ My name is **Peter Cole** _(he/him)_
 - [GitHub](https://github.com/peter7cole)
 - [LinkedIn](https://linkedin.com/in/peter7cole)
 
-> Copyright 2021
+> Copyright 2022
