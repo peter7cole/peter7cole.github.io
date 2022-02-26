@@ -1,0 +1,22 @@
+/* .logo {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo__img {
+  height: 28px;
+}
+
+.bullets {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  gap: 1rem;
+}
+
+.bullets__rows {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 2rem;
+} */
