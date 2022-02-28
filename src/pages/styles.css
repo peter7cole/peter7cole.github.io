@@ -7,15 +7,9 @@ body {
   background-color: cornflowerblue;
   width: 100%;
   height: 400px;
-  margin-top: -200px;
+  margin-top: -250px;
   transform: skewY(-5deg);
   opacity: 0.5;
-}
-
-@media only screen and (max-width: 600px) {
-  .diagonal {
-    margin-top: -300px;
-  }
 }
 
 .content {
@@ -31,6 +25,7 @@ body {
 .content__text {
   background-color: aliceblue;
   padding: 5rem;
+  margin-bottom: 5rem;
 }
 
 a:link,
@@ -68,10 +63,16 @@ a:visited {
   justify-content: center;
   align-items: center;
   gap: 0.5em;
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .gatsby__logo {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .diagonal {
+    margin-top: -300px;
+  }
 }
