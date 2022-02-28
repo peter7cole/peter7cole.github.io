@@ -96,7 +96,9 @@ const IndexPage = () => {
               <div className="gatsby">
                 <div>Made with </div>
                 <div className="gatsby__logo">
-                  <img src={gatsbyLogo} alt="gatsby" className="logo__img" />
+                  <a href="https://gatsbyjs.com/">
+                    <img src={gatsbyLogo} alt="gatsby" className="logo__img" />
+                  </a>
                 </div>
               </div>
             </div>
