@@ -1,6 +1,7 @@
 import React from 'react';
 import githubLogo from '../images/GitHub-Mark-32px.png';
 import linkedinLogo from '../images/LI-In-Bug.png';
+import gatsbyLogo from '../images/gatsby.png';
 import './styles.css';
 import BulletRow from '../components/BulletRow';
 
@@ -18,7 +19,7 @@ const IndexPage = () => {
           <div className="content">
             <div className="content__text">
               <title>Peter Cole</title>
-              <h1>Hello World</h1>
+              <h1>Hello World!</h1>
               <div className="bullets">
                 <div className="bullets__rows">
                   <div className="logo">
@@ -77,7 +78,6 @@ const IndexPage = () => {
                   }}
                 />
               </div>
-
               <h2>Connect</h2>
               <div className="bullets">
                 <div className="bullets__rows">
@@ -91,6 +91,12 @@ const IndexPage = () => {
                     <img src={linkedinLogo} alt="linkedin" className="logo__img" />
                   </div>
                   <a href="https://linkedin.com/in/peter7cole">LinkedIn</a>
+                </div>
+              </div>
+              <div className="gatsby">
+                <div>Made with </div>
+                <div className="gatsby__logo">
+                  <img src={gatsbyLogo} alt="gatsby" className="logo__img" />
                 </div>
               </div>
             </div>
