@@ -38,7 +38,7 @@ const IndexPage = () => {
                   data={{
                     logo: '💻',
                     spanElem: {
-                      msg: 'Software Engineer at Cisco working on a small part of ',
+                      msg: 'Software Engineer at Cisco working on a part of ',
                       linkText: 'Cisco Webex',
                       linkUrl: 'https://www.webex.com/',
                       time: '2020 - Present',
