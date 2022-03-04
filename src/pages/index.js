@@ -13,7 +13,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <div className="diagonal1"></div>
+      <div className="diagonal"></div>
       <div className="box1">
         <div className="box2">
           <div className="content">
