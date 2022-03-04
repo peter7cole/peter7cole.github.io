@@ -13,13 +13,13 @@ const IndexPage = () => {
 
   return (
     <>
-      <div className="diagonal"></div>
+      <div className="diagonal1"></div>
       <div className="box1">
         <div className="box2">
           <div className="content">
             <div className="content__text">
               <title>Peter Cole</title>
-              <h1>Hello World!</h1>
+              <h1>Welcome!</h1>
               <div className="bullets">
                 <div className="bullets__rows">
                   <div className="logo">
