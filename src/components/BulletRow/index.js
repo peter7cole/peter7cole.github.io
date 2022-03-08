@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 const BulletRow = ({ data }) => {
   const { logo, spanElem } = data;
   const { msg, linkText, linkUrl, time } = spanElem;
+
   return (
     <div className="bullets__rows">
       <div className="logo">
@@ -13,8 +14,13 @@ const BulletRow = ({ data }) => {
       <div>
         <span>
           {msg}
-          {linkText ? ' ' : ''}
-          <a href={`${linkUrl}`}>{linkText}</a>, <i>{time}</i>
+          {linkText && ' '}
+          {linkUrl && (
+            <>
+              <a href={`${linkUrl}`}>{linkText}</a>
+            </>
+          )}
+          {time && <i> ({time})</i>}
         </span>
       </div>
     </div>
@@ -45,7 +51,7 @@ BulletRow.propTypes = {
       msg: PropTypes.string.isRequired,
       linkText: PropTypes.string,
       linkUrl: PropTypes.string,
-      title: PropTypes.string.isRequired,
+      time: PropTypes.string,
     }).isRequired,
   }).isRequired,
 };

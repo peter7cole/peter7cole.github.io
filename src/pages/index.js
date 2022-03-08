@@ -21,16 +21,33 @@ const IndexPage = () => {
               <title>Peter Cole</title>
               <h1>Welcome!</h1>
               <div className="bullets">
-                <div className="bullets__rows">
-                  <div className="logo">
-                    <div className="logo__img">🥳</div>
-                  </div>
-                  <div>
-                    <span>
-                      My name is <strong>Peter Cole</strong> <i>(he/him)</i>
-                    </span>
-                  </div>
-                </div>
+                <BulletRow
+                  data={{
+                    logo: '🥳',
+                    spanElem: {
+                      msg: (
+                        <span>
+                          My name is <strong>Peter Cole</strong> <i>(he/him)</i>
+                        </span>
+                      ),
+                    },
+                  }}
+                />
+                <BulletRow
+                  data={{
+                    logo: '🤘',
+                    spanElem: {
+                      msg: (
+                        <>
+                          <div>I focus on Javascript with React, Redux, and Node.js for web apps.</div>
+                          <div>
+                            I enjoy digging into accessibility, automation, documentation, mentoring, and metrics.
+                          </div>
+                        </>
+                      ),
+                    },
+                  }}
+                />
               </div>
               <h2>Overview</h2>
               <div className="bullets">
