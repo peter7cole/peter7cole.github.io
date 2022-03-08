@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: -apple-system, Roboto, sans-serif, serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .content__text {
