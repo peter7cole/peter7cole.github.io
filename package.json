@@ -18,7 +18,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "^4.8.1",
+    "gatsby": "^4.23.1",
     "gatsby-plugin-image": "^2.8.0",
     "gatsby-plugin-sass": "^5.8.0",
     "gatsby-plugin-sharp": "^4.8.0",
